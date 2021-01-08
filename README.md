@@ -11,10 +11,15 @@ This repository contains my code for the Machine Learning ans Statistics project
  - Dockerfile, .dockerignore, and requirements.txt required for creating Docker Container.
  
  ## How to Run App from Docker Container
- docker build . -t predict-image\
- docker run --name predict-container -d -p 5000:5000 predict-image\
+ - Clone this repository by running the following command on your command line.
+ ``` git clone https://github.com/ANihill/MLProject.git```
+ - Navigate to repository
+ ```cd MLProject```
+ - Run the follwoing commands.
+ ```docker build . -t predict-image```\
+ ```docker run --name predict-container -d -p 5000:5000 predict-image```
  
  ### Potential Issues
  Dockerfile contains the following code in the first line.\
  ```FROM python:3.8```\
- Python version was set to 3.8 as it would not build the container on my machine, as it was unable to find tensorflow with python set to 3.\
+ Python version was set to 3.8 as it would not build the container on my machine, as it was unable to find tensorflow with python set to 3.
