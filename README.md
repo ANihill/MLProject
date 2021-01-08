@@ -11,11 +11,11 @@ This repository contains my code for the Machine Learning ans Statistics project
  - Dockerfile, .dockerignore, and requirements.txt required for creating Docker Container.
  
  ## How to Run App from Docker Container
- - Clone this repository by running the following command on your command line.
- ``` git clone https://github.com/ANihill/MLProject.git```
- - Navigate to repository
- ```cd MLProject```
- - Run the follwoing commands.
+ - Clone this repository by running the following command on your command line.\
+ ``` git clone https://github.com/ANihill/MLProject.git```\
+ - Navigate to repository.\
+ ```cd MLProject```\
+ - Run the follwoing commands.\
  ```docker build . -t predict-image```\
  ```docker run --name predict-container -d -p 5000:5000 predict-image```
  
