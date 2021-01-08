@@ -11,9 +11,11 @@
 </head>
 
 <body>
+    <!--Div containg interface for web app -->
     <div class="model", style="width: 800px; align-content: center; display: block; border-bottom: solid mediumaquamarine;" >
         <h1 style="color:white; background-color: mediumaquamarine;">Predict Power Output</h1>
         <p style="text-align: center; color: teal;">The Keras model created for this project was trained on a dataset containing windspeed values between 0 and 25km/h. In order to make a prediction of power output please enter a value between 1 and 25 below. The form accepts values with up to 3 decimal places.</p>
+        <!--form action posts input to function in server.py-->
         <form action="{{ url_for('power')}}" method="post" style="display: block; text-align: center;">
             <input type="number"  step="0.001" style="width: 400px;" name="speed" placeholder="Windspeed" id="speed" required>
             <div class="msg" style="color: teal;">{{ msg }}</div>
