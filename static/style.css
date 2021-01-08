@@ -11,53 +11,43 @@ body {
 	margin: 0;
 }
 .model {
-	width: 400px;
+	width: 100%;
 	background-color: #ffffff;
 	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
 	margin: 100px auto;
+	display: block;
 }
 .model h1 {
 	text-align: center;
 	color: #5b6574;
-	font-size: 24px;
+	font-size: 56px;
 	padding: 20px 0 20px 0;
 	border-bottom: 1px solid #dee0e4;
 }
 .model {
-	display: flex;
+	display: block;
 	padding: 0 15px;
 }
 .model {
 	color: #adb2ba;
 	text-decoration: none;
-	display: inline-flex;
-	padding: 0 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 	font-weight: bold;
 }
 .model {
 	color: #9da3ac;
 }
-.model {
-	border-bottom: 3px solid #3274d6;
-	color: #3274d6;
-}
+
+
 .model form {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	padding-top: 20px;
 }
-.model form label {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 50px;
-	height: 50px;
-	background-color: #3274d6;
-	color: #ffffff;
-}
+
 .model form input[type="number"] {
-	width: 310px;
+	width: 10px;
 	height: 50px;
 	border: 1px solid #dee0e4;
 	margin-bottom: 20px;
@@ -67,16 +57,16 @@ body {
 	width: 100%;
 	padding: 15px;
 	margin-top: 20px;
-	background-color: #3274d6;
 	border: 0;
 	cursor: pointer;
 	font-weight: bold;
 	color: #ffffff;
 	transition: background-color 0.2s;
+	display: block;
 }
 .model form input[type="submit"]:hover {
-	background-color: #2868c7;
 	transition: background-color 0.2s;
+	display: block;
 }
 .navtop {
 	background-color: #2f3947;
